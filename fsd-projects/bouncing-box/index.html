@@ -42,6 +42,7 @@
         var box = jQuery(".box"); // reference to the HTML .box element
         var board = jQuery(".board"); // reference to the HTML .board element
         var boardWidth = board.width(); // the maximum X-Coordinate of the screen
+        
 
         // update the boardWidth variable when the window is resized
         jQuery(window).on("resize", function () {
@@ -69,6 +70,7 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
+        var positionX = 0
 
 
 
@@ -80,6 +82,8 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
+          positionX = positionX + 10;
+          moveBoxTo(positionX)
 
         
 
