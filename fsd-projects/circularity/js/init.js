@@ -120,7 +120,15 @@ for (var i = 0; i < circles.length; i++) {
 }
             
         }
-    
+    game.checkCirclePosition(circles[ 0 ])
+
+game.checkCirclePosition(circles[ 1 ])
+
+game.checkCirclePosition(circles[ 2 ])
+
+game.checkCirclePosition(circles[ 3 ])
+
+game.checkCirclePosition(circles[ 4 ])
         /* 
         This Function should check the position of a circle that is passed to the 
         Function. If that circle drifts off the screen, this Function should move
